@@ -1,0 +1,371 @@
+<main>
+    <nav class="navbar bg-white topnav bo-radius-25">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand font-24 font-weight-700">Overview</a>
+            <form class="d-flex col-4" role="search">
+                <div class="input-group">
+                    <span class="input-group-text bo-radius-15 border-end-0 pe-0 bg-input-gray border-0 rounded-end-0" id="basic-addon1">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-search"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#2c3e50"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" />
+                        </svg>
+                    </span>
+                    <input
+                        type="text"
+                        class="form-control me-2 bg-input-gray border-0 p-3 ps-2 bo-radius-15 border-start-0 rounded-start-0"
+                        placeholder="Search anything here...."
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                    />
+                </div>
+            </form>
+            <div class="d-flex">
+                <button type="button" class="btn btn-outline-dark border-border-gray bo-radius-10 iconbtn">
+                    <div class="position-relative">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-mail"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#2c3e50"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                            <path d="M3 7l9 6l9 -6" />
+                        </svg>
+                        <span class="position-absolute top-0 start-100 translate-middle badge font-7 border- rounded-pill bg-dark-gray">
+                            2
+                        </span>
+                    </div>
+                </button>
+                <button type="button" class="btn btn-outline-dark border-border-gray bo-radius-10 mx-1 iconbtn">
+                    <div class="position-relative">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon icon-tabler icon-tabler-bell"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="#2c3e50"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                            <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                        </svg>
+                        <span class="position-absolute top-0 start-100 translate-middle badge font-7 border- rounded-pill bg-dark-gray">
+                            2
+                        </span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="scroll">
+        <div class="Contant container-fluid overflow-y-auto">
+            <div class="row mt-2">
+                <div class="col-4">
+                    <div class="bg-white bo-radius-25 px-3">
+                        <div class="px-3 py-4 border-bottom">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <h5>My Cards:1<small class="text-font font-14">/2</small></h5>
+                                <div class="d-flex align-items-center">
+                                    <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 text-dark-gray bo-radius-10"><i class="fa-solid fa-angle-left"></i></button>
+                                    <button type="button" class="btn mx-1 bo-radius-10 btn-outline-secondary border-border-gray text-dark-gray"><i class="fa-solid fa-angle-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <img src="./assets/img/card.png" alt="" class="w-100 bo-radius-25" />
+                            </div>
+
+                            <div class="my-2">
+                                <button class="btn btn-primary w-100 addbtncard" type="submit"><i class="fa-solid fa-circle-plus me-2"></i>Add New Card</button>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4 border-bottom">
+                            <h5 class="mb-2">Quick Actions</h5>
+                            <div class="d-flex align-items-center justify-content-between p-4 border bo-radius-20">
+                                <div class="d-flex flex-column align-items-center justify-content-center col-4 border-end">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-circle-plus"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="#2c3e50"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                        <path d="M9 12h6" />
+                                        <path d="M12 9v6" />
+                                    </svg>
+                                    Top up
+                                </div>
+                                <div class="d-flex flex-column align-items-center justify-content-center col-4 border-end">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-send"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="#2c3e50"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M10 14l11 -11" />
+                                        <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+                                    </svg>
+                                    Transfer
+                                </div>
+                                <div class="d-flex flex-column align-items-center justify-content-center col-4">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-mastercard"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.5"
+                                        stroke="#2c3e50"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M14 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                                        <path d="M12 9.765a3 3 0 1 0 0 4.47" />
+                                        <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                                    </svg>
+                                    Withdraw
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-3 py-4 border-bottom">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <h5>Saving Plan</h5>
+                                <i class="fa-solid fa-circle-plus font-20"></i>
+                            </div>
+
+                            <div class="card bo-radius-20 card-data">
+                                <div class="card-body">
+                                  <div class="d-flex align-items-center justify-content-between">                                               
+                                     <div class="d-flex align-items-center mb-3">
+                                        <div class="icon me-2">
+                                            <i class="fa-solid fa-clock"></i>
+                                        </div>
+                                        <div>
+                                            <h5 class="card-title">New Watch</h5>
+                                            <h6 class="card-subtitle text-body-secondary font-12">Target $2.000</h6>
+                                        </div>
+                                      </div>
+                                      <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 border-0 text-dark-gray bo-radius-10"><i class="fa-solid fa-ellipsis"></i></button>
+                           
+
+                                    </div>
+                                    <div class="font-12 d-flex align-items-center justify-content-between mb-2">
+                                        <div class="font-weight-500 text-dark-gray">Target $2.000</div>
+                                        <div>50%</div>
+                                    </div>
+                                    <div class="progress" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 25%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="px-3 py-4 bg-white bo-radius-25">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <h5>Total Balance</h5>
+                            <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 border-0 text-dark-gray bo-radius-10"><i class="fa-solid fa-ellipsis"></i></button>
+                        </div>
+                        <h1 class="mb-4">${{balanceView.total_balance}}</h1>
+
+                        <div class="progress mb-2" style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar"  [ngStyle]="{ width: balanceView.payment_done_percentage + '%' }"></div>
+                        </div>
+                        <div class="font-15 d-flex align-items-center justify-content-between">
+                            <div class="font-weight-400 text-font">Monthly payment limit</div>
+                            <div class="text-font"><span class="font-weight-500 text-dark-gray">${{balanceView.payment_done_so_far}}</span>/${{balanceView.monthly_payment_limit}}</div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-4 bg-white bo-radius-25 my-2 chart-card">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <h5>Money Statictics</h5>
+                            <div class="d-flex align-items-center">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle bg-transparent border bo-radius-10 text-dark-gray" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Monthly
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 border-0 text-dark-gray bo-radius-10"><i class="fa-solid fa-ellipsis"></i></button>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="col-4 border-end">
+                                <div class="px-3">
+                                    <p class="card-title text-font mb-4">Total Income</p>
+                                    <h2 class="card-text">${{moneyStatistics.total_income.value | number : '1.2-2'}}</h2>
+                                    <a href="#" class="btn btn-primary  font-weight-600" [ngClass]="{'text-danger' : moneyStatistics.total_income.trend_color == 'red','text-success' : moneyStatistics.total_income.trend_color == 'green','text-warning' : moneyStatistics.total_income.trend_color == 'yellow'}" ><i class="fa-solid fa-arrow-trend-up"></i> {{moneyStatistics.total_income.trend}}% <span class="text-secondary font-weight-400"> from last month</span></a>
+                                </div>
+                            </div>
+                            <div class="col-4 border-end">
+                                <div class="px-3">
+                                    <p class="card-title text-font mb-4">Total Expense </p>
+                                    <h2 class="card-text">${{moneyStatistics.total_expense.value | number : '1.2-2'}}</h2>
+                                    <a href="#" class="btn btn-primary  font-weight-600" [ngClass]="{'text-danger' : moneyStatistics.total_expense.trend_color == 'red','text-success' : moneyStatistics.total_expense.trend_color == 'green','text-warning' : moneyStatistics.total_expense.trend_color == 'yellow'}" ><i class="fa-solid fa-arrow-trend-up"></i> {{moneyStatistics.total_expense.trend}}% <span class="text-secondary font-weight-400"> from last month</span></a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="px-3">
+                                    <p class="card-title text-font mb-4">Total Investment</p>
+                                    <h2 class="card-text">${{moneyStatistics.total_investment.value | number : '1.2-2'}}</h2>
+                                    <a href="#" class="btn btn-primary  font-weight-600" [ngClass]="{'text-danger' : moneyStatistics.total_investment.trend_color == 'red','text-success' : moneyStatistics.total_investment.trend_color == 'green' ,'text-warning' : moneyStatistics.total_investment.trend_color == 'yellow'}" ><i class="fa-solid fa-arrow-trend-up"></i> {{moneyStatistics.total_investment.trend}}% <span class="text-secondary font-weight-400"> from last month</span></a>
+                               </div>
+                            </div>
+                        </div>
+                        <div>
+                            <canvasjs-chart [options]="chartOptions"></canvasjs-chart>   
+                        </div>
+
+                    </div>
+                    <div class="px-3 py-4 bg-white bo-radius-25 table-data">
+                        <div class="d-flex align-items-center justify-content-between mb-2">
+                            <h5>Transaction History</h5>
+                            <div class="d-flex align-items-center">
+                                <div class="input-group">
+                                    <span class="input-group-text bo-radius-10 border-end-0 pe-0 border bg-transparent rounded-end-0" id="basic-addon1">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="icon icon-tabler icon-tabler-search"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="#2c3e50"
+                                            fill="none"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                            <path d="M21 21l-6 -6" />
+                                        </svg>
+                                    </span>
+                                    <input
+                                        type="text"
+                                        class="form-control me-2 bg-transparent border  ps-2 bo-radius-10 border-start-0 rounded-start-0"
+                                        placeholder="Search "
+                                        aria-label="Username"
+                                        aria-describedby="basic-addon1"
+                                    />
+                                </div>
+
+                                <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 d-flex align-items-center border text-dark-gray bo-radius-10">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-list-filter me-2"
+                                    >
+                                        <path d="M3 6h18" />
+                                        <path d="M7 12h10" />
+                                        <path d="M10 18h4" />
+                                    </svg>
+                                    Filter
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 d-flex align-items-center border text-dark-gray bo-radius-10">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="16"
+                                        height="16"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-folder-input me-2"
+                                    >
+                                        <path d="M2 9V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1" />
+                                        <path d="M2 13h10" />
+                                        <path d="m9 16 3-3-3-3" />
+                                    </svg>
+                                    Export
+                                </button>
+                            </div>
+                        </div>
+                        <div class="table-scroll overflow-y-auto pe-3">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">Date</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">Name</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">status</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">type</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">time</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">account</th>
+                                    <th scope="col" class="bg-body-gray font-weight-400 font-14">action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let data of transactionsView">
+                                    <td>{{data.date | date: 'MMM dd, yyyy'}}</td>
+                                    <td>{{data.name}}</td>
+                                    <td><span class="badge text-bg-success"  [ngClass]="{'text-bg-success' : data.status == 'Success','text-bg-warning' : data.status == 'Pending' ,'text-bg-danger' : data.status == 'Failed'}">Success</span></td>
+                                    <td>{{data.type}}</td>
+                                    <td>{{data.date | date: 'h:mm a'}}</td>
+                                    <td>${{data.amount}}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-outline-secondary border-border-gray mx-1 border-0 text-dark-gray bo-radius-10"><i class="fa-solid fa-ellipsis"></i></button>⠀
+                                    </td>
+                                </tr>
+                              
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
